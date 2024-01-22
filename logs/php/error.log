@@ -1,0 +1,96 @@
+[22-Jan-2024 05:37:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php on line 7 and at least 2 expected in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php(7): add_action()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-settings.php(611): include('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\wp-config.php(103): require_once('C:\\Users\\tomcr\\...')
+#3 C:\Users\tomcr\Local Sites\university-website\app\public\wp-load.php(50): require_once('C:\\Users\\tomcr\\...')
+#4 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(13): require_once('C:\\Users\\tomcr\\...')
+#5 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#6 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php on line 441
+[22-Jan-2024 05:37:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php on line 7 and at least 2 expected in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php(7): add_action()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-settings.php(611): include('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\wp-config.php(103): require_once('C:\\Users\\tomcr\\...')
+#3 C:\Users\tomcr\Local Sites\university-website\app\public\wp-load.php(50): require_once('C:\\Users\\tomcr\\...')
+#4 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(13): require_once('C:\\Users\\tomcr\\...')
+#5 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#6 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php on line 441
+[22-Jan-2024 05:37:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php on line 7 and at least 2 expected in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\functions.php(7): add_action()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-settings.php(611): include('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\wp-config.php(103): require_once('C:\\Users\\tomcr\\...')
+#3 C:\Users\tomcr\Local Sites\university-website\app\public\wp-load.php(50): require_once('C:\\Users\\tomcr\\...')
+#4 C:\Users\tomcr\Local Sites\university-website\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\tomcr\\...')
+#5 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\plugin.php on line 441
+[22-Jan-2024 07:04:22 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:24 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:50 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:04:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:25
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 25
+[22-Jan-2024 07:36:09 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "the_parent_ID" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php:41
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\page.php on line 41
+[22-Jan-2024 07:51:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lang_attributes() in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\header.php:2
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template.php(790): require_once()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template.php(725): load_template('C:\\Users\\tomcr\\...', true, Array)
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\index.php(2): get_header()
+#4 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\tomcr\\...')
+#5 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#6 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#7 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\header.php on line 2
