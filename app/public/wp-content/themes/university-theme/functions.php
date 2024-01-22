@@ -17,8 +17,11 @@ function university_files()
 
 function university_features()
 {
-    // enable wp features
-    add_theme_support("title-tag");
+    // wp features
+    // register_nav_menu("headerMenuLocation", "Header Menu Location"); // enable dynamic menus
+    // register_nav_menu("footerMenuLocationOne", "Footer Menu Location One");
+    // register_nav_menu("footerMenuLocationTwo", "Footer Menu Location Two");
+    add_theme_support("title-tag"); // enable page title
 }
 
 // wp event hooks
