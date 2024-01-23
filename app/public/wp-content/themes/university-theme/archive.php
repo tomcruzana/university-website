@@ -7,10 +7,32 @@ get_header();
         style="background-image: url(<?php echo get_theme_file_uri("/images/ocean.jpg") ?>)"></div>
     <div class="page-banner__content container container--narrow">
         <h1 class="page-banner__title">
-            Welcome to our blog!
+            <?php
+            /* use this logic if you want more granular control over archive titles  */
+            // if (is_category()) {
+            //     // category name goes here
+            //     single_cat_title();
+            // }
+            
+            // if (is_author()) {
+            //     // author name goes here
+            //     echo "Posts by ";
+            //     the_author();
+            // }
+            
+            /* use this new wp function to auto handle archive titles */
+            the_archive_title();
+            ?>
+
+
         </h1>
         <div class="page-banner__intro">
-            <p>Keep up with our latest news.</p>
+            <p>
+                <?php
+                // return the biographical info
+                the_archive_description();
+                ?>
+            </p>
         </div>
     </div>
 </div>
