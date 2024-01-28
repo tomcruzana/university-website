@@ -24,7 +24,7 @@ get_header();
             $today = date('Ymd');
             $event_posts = new WP_Query(
                 array(
-                    'posts_per_page' => -1,
+                    'posts_per_page' => 2,
                     'post_type' => 'event',
                     'meta_key' => 'event_date',
                     'orderby' => 'meta_value_num',
@@ -40,6 +40,8 @@ get_header();
 
             while ($event_posts->have_posts()) {
                 $event_posts->the_post();
+
+                echo print_r($event_posts->the_post());
             }
             ?>
 
