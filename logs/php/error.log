@@ -163,3 +163,18 @@ Stack trace:
 [29-Jan-2024 05:28:34 UTC] PHP Warning:  Undefined array key 1 in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\class-wp-query.php on line 3643
 [29-Jan-2024 05:31:50 UTC] PHP Warning:  Undefined array key 1 in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\class-wp-query.php on line 3643
 [29-Jan-2024 05:37:42 UTC] PHP Warning:  Undefined array key 1 in C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\class-wp-query.php on line 3643
+[29-Jan-2024 08:27:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\single-program.php:86
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\single-program.php on line 86
+[29-Jan-2024 08:28:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_post_data() in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\single-program.php:62
+Stack trace:
+#0 C:\Users\tomcr\Local Sites\university-website\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\tomcr\Local Sites\university-website\app\public\wp-blog-header.php(19): require_once('C:\\Users\\tomcr\\...')
+#2 C:\Users\tomcr\Local Sites\university-website\app\public\index.php(17): require('C:\\Users\\tomcr\\...')
+#3 {main}
+  thrown in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\themes\university-theme\single-program.php on line 62
+[29-Jan-2024 09:22:16 UTC] PHP Warning:  Undefined array key "size" in C:\Users\tomcr\Local Sites\university-website\app\public\wp-content\plugins\manual-image-crop\lib\ManualImageCropEditorWindow.php on line 39
